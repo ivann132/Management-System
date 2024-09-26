@@ -43,11 +43,9 @@
         ***********************************-->
         <div class="nav-header">
             <div class="brand-logo">
-                <a href="/">
-                    <b class="logo-abbr"><img src="/assets/images/logo.png" alt=""> </b>
-                    <span class="logo-compact"><img src="/assets/images/logo-compact.png" alt=""></span>
-                    <span class="brand-title">
-                        <img src="/assets/images/logo-text.png" alt="">
+                <a href="/dashboard">
+                    <span class="brand-title" style="color: cyan;">
+                        Hehe
                     </span>
                 </a>
             </div>
@@ -79,7 +77,7 @@
             <div class="nk-nav-scroll">
                 <ul class="metismenu" id="menu">
                     <li>
-                        <a href="/" aria-expanded="false">
+                        <a href="/dashboard" aria-expanded="false">
                             <i class="icon-speedometer menu-icon"></i><span class="nav-text">Dashboard</span>
                         </a>
                     </li>
@@ -99,6 +97,11 @@
                             <li><a href="/orasi">orasi</a></li>
                         </ul>
                     </li>
+                    <li>
+                        <a href="/logout" aria-expanded="false">
+                            <i class="icon-logout menu-icon"></i><span class="nav-text">Logout</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -114,7 +117,7 @@
         ***********************************-->
         <div class="footer">
             <div class="copyright">
-                <p>Copyright &copy; Designed & Developed by <a href="#">Quixlab</a> 2018</p>
+                <p>Copyright &copy; Designed & Developed by <a href="/dashboard">Hehe</a> 2024</p>
             </div>
         </div>
         <!--**********************************

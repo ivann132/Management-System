@@ -10,7 +10,7 @@ class DosenController extends Controller
     public function index()
     {
         $data = array(
-            'title' => 'Data dosen',
+            'title' => 'Data Dosen',
             'data_dosen' => Dosen::all(),
         );
 
@@ -24,7 +24,7 @@ class DosenController extends Controller
             'nip' => $request->nip
         ]);
 
-        return redirect('/')->with('success', 'Data berhasil disimpan');
+        return redirect('/dashboard')->with('success', 'Data berhasil disimpan');
     }
 
     public function update(Request $request, $id)
@@ -40,12 +40,12 @@ class DosenController extends Controller
                 'nip' => $request->nip,
             ]);
 
-        return redirect('/')->with('success', 'Data berhasil disimpan');
+        return redirect('/dashboard')->with('success', 'Data berhasil disimpan');
     }
 
     public function destroy($id)
     {
         Dosen::where('id', $id)->delete();
-        return redirect('/')->with('success', 'Data berhasil disimpan');
+        return redirect('/dashboard')->with('success', 'Data berhasil disimpan');
     }
 }
